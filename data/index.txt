@@ -1,10 +1,10 @@
-doisong8.wav
 mình
-suckhoe21.wav
+voice_1.wav
 nhận
-tamsu5.wav
+voice_2.wav
 tôi
-thethao26.wav
+voice_3.wav
 chị
-kinhdoanh7.wav
+voice_4.wav
 vui vẻ
+voice_5.wav
