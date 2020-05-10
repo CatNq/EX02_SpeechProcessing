@@ -10,7 +10,9 @@ vui vẻ
 voice_5.wav
 cho
 voice_6.wav
+theo
 voice_7.wav
+dù
 voice_8.wav
 voice_9.wav
 voice_10.wav
