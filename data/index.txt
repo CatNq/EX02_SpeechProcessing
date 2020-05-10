@@ -8,3 +8,18 @@ chị
 voice_4.wav
 vui vẻ
 voice_5.wav
+cho
+voice_6.wav
+voice_7.wav
+voice_8.wav
+voice_9.wav
+voice_10.wav
+voice_11.wav
+voice_12.wav
+voice_13.wav
+voice_14.wav
+voice_15.wav
+voice_16.wav
+voice_17.wav
+voice_18.wav
+voice_19.wav
