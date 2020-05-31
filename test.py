@@ -15,7 +15,7 @@ import librosa
 import sounddevice as sd
 import soundfile as sf
 
-CLASS_LABELS = {"cho_biet", "khach", "khong", "toi", "nguoi"}
+CLASS_LABELS = {"vietnam", "toi","ban","khong","khach"}
 
 # Controls
 STOP_RECORD_CMD = "/s"
@@ -50,7 +50,7 @@ def record(file_name):
         #Open a new soundfile and attempt recording
         with sf.SoundFile(file_name, mode='x', samplerate=SAMPLE_RATE, channels=CHANNELS, subtype="PCM_24") as file:
             with sd.InputStream(samplerate=SAMPLE_RATE, device=sd.default.device, channels=CHANNELS, callback=callback):
-                print("Recording ... ('{}' to stop recording)".format(STOP_RECORD_CMD))
+                print("Recording ... ('{}' to stop )".format(STOP_RECORD_CMD))
             
                 while True:
                     file.write(q.get())
@@ -76,7 +76,7 @@ if __name__ == "__main__":
     for label in CLASS_LABELS:
         with open(os.path.join("Models", label + ".pkl"), "rb") as file: models[label] = pk.load(file)
 
-    input("Press any key to start recording")
+    input("Press enter to record")
 
     inputThread = threading.Thread(target=read_kb_input, args=(inputQueue,), daemon=True)
     inputThread.start()

@@ -6,7 +6,7 @@ import hmmlearn.hmm
 import numpy as np
 import pickle as pk
 
-CLASS_LABELS = {"khong", "toi"}
+CLASS_LABELS = {"vietnam", "toi","ban","khong","khach"}
 # Directory name of sound files must match labels
 
 TEST_SIZE = 5

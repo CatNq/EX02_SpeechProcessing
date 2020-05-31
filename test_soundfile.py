@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-t", "--test", help="Image input", required=True)
 args = parser.parse_args()
 
-CLASS_LABELS = {"cho_biet", "khach", "khong", "toi", "nguoi"}
+CLASS_LABELS = {"vietnam", "toi","ban","khong","khach"}
 
 def clustering(X, n_clusters=10):
     kmeans = KMeans(n_clusters=n_clusters, n_init=50, random_state=0, verbose=0)

@@ -1,0 +1,9 @@
+name: voice
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - numpy
+  - pip:
+    - librosa
