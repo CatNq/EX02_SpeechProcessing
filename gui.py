@@ -10,7 +10,6 @@ predicter = Predicter()
 
 
 
-
 window = tk.Tk()
 window.geometry("400x300")
 
