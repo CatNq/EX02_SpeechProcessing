@@ -5,7 +5,7 @@ chardet==3.0.4
 decorator==4.4.2
 hmmlearn==0.2.3
 idna==2.9
-joblib==0.15.1
+joblib==1.2.0
 librosa==0.7.2
 llvmlite==0.32.1
 lxml==4.5.0
